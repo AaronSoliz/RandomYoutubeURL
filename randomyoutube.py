@@ -8,7 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 count = 50
 i = 0
 ids = []
-API_KEY = 'AIzaSyDsF_jgEUaUHcJztYK9LPwD_7dF0G9YBRA'
+API_KEY = 'key goes here'
 randomhash = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(3))
 
 urlData = "https://www.googleapis.com/youtube/v3/search?key={}&maxResults={}&part=snippet&type=video&q={}".format(API_KEY,count,randomhash)
